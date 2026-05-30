@@ -1,0 +1,62 @@
+/**
+ * tokens.css — Design tokens for The Terminus Doctrine
+ * Vellum / parchment palette — formal, archival, grave.
+ */
+
+:root {
+  /* ── Ground ─────────────────────────────────────────── */
+  --vellum:       #ede7d7;
+  --vellum2:      #e4ddc8;
+  --vellum3:      #ddd5bc;
+  --card:         #f4efdf;
+  --card2:        #f9f5e8;
+
+  /* ── Ink ────────────────────────────────────────────── */
+  --ink:          #1e1810;
+  --ink2:         #45392a;
+  --faint:        #887761;
+  --dim:          #b0a07a;
+  --hair:         #d0c4a4;
+  --line:         #c0b08a;
+  --rule:         #a89870;
+
+  /* ── Oxblood — violation, emphasis ─────────────────── */
+  --oxblood:      #7a2a20;
+  --oxblood-l:    #a33a2a;
+  --oxblood-soft: #eedbd5;
+  --oxblood-bg:   #f5e8e4;
+
+  /* ── Bronze — authority, seal, article marks ────────── */
+  --bronze:       #96700e;
+  --bronze-d:     #6e5010;
+  --bronze-l:     #b88c28;
+  --bronze-vl:    #d4aa48;
+  --bronze-bg:    #f2ecd8;
+
+  /* ── Status ─────────────────────────────────────────── */
+  --ok:           #2a5838;
+  --ok-soft:      #dce8dc;
+  --ok-bg:        #eaf2ea;
+  --bad:          #7a2a20;
+  --bad-soft:     #eedad5;
+  --bad-bg:       #f5e5e0;
+  --contested:    #6b5015;
+  --contested-soft:#ede2c8;
+  --contested-bg: #f6f0e0;
+  --severe:       #5a1a12;
+  --severe-bg:    #f2d5cf;
+
+  /* ── Typography ─────────────────────────────────────── */
+  --disp:  "Cinzel", Georgia, serif;
+  --body:  "Spectral", Georgia, serif;
+  --mono:  "JetBrains Mono", "IBM Plex Mono", ui-monospace, monospace;
+
+  /* ── Spacing ─────────────────────────────────────────── */
+  --r-sm:  4px;
+  --r-md:  6px;
+  --r-lg:  10px;
+
+  /* ── Transitions ─────────────────────────────────────── */
+  --t-fast:  0.14s ease;
+  --t-mid:   0.28s ease;
+}

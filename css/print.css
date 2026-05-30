@@ -1,0 +1,60 @@
+/**
+ * print.css — Clean print layout for The Terminus Doctrine
+ * Removes interactive elements, optimizes for paper.
+ */
+
+@media print {
+  * { box-sizing: border-box; }
+
+  body {
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 11pt;
+    line-height: 1.55;
+    padding: 0;
+  }
+
+  .wrap { max-width: 100%; padding: 0; }
+
+  /* Remove non-document elements */
+  .toolbar, .canon-reveal, .case-library,
+  .test, #btn-print { display: none !important; }
+
+  /* Header */
+  header { padding: 0 0 12pt; border-bottom: 1pt solid #888; }
+  h1.doc-title { font-size: 24pt; }
+  .seal-top { color: #666; }
+  .ornament .ln { background: #aaa; }
+
+  /* Principle */
+  .principle {
+    border: 1pt solid #ccc;
+    border-top: 2pt solid #888;
+    background: #f9f9f9 !important;
+    box-shadow: none;
+    margin: 14pt 0;
+    padding: 16pt;
+    break-inside: avoid;
+  }
+  .principle .pt .em { color: #5a1a10; }
+
+  /* Articles */
+  .article { break-inside: avoid; margin: 18pt 0 0; border-top: 0.5pt solid #ccc; padding-top: 12pt; }
+  .article h2 { font-size: 14pt; }
+  .anum { color: #666; }
+  .article p, .article .coda { color: #111; font-size: 11pt; }
+  .article .em { color: #5a1a10; }
+  .faculties li, .dodges li { color: #111; }
+  .faculties li::before, .dodges li::before { color: #666; }
+  .dodge-claim { color: #5a1a10; }
+
+  /* Seal */
+  .seal { border-top: 1.5pt solid #888; padding-top: 14pt; }
+  .anchor { color: #555; }
+  .anchor b { color: #333; }
+  .seal-svg { width: 60px; height: 60px; }
+
+  /* Page breaks */
+  .principle, .article, .test { page-break-inside: avoid; }
+  h1, h2 { page-break-after: avoid; }
+}

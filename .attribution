@@ -1,0 +1,26 @@
+{
+  "format": "ROOT0-ATTRIBUTION-v1.0",
+  "project": "The Terminus Doctrine",
+  "version": "v1.0",
+  "context": "governance codification",
+  "date": "2026-05-30",
+  "license": "CC-BY-ND-4.0",
+  "canonical_sha256": "57faab7122b816ec76c15d6b50fd37d8bfacc1dca40676a3113f80bd6ac29546",
+  "contributors": [
+    {
+      "name": "David Lee Wise",
+      "handle": "ROOT0",
+      "substrate": "human",
+      "role": "architect",
+      "contribution": "doctrine · original codification · canonical text"
+    },
+    {
+      "name": "AVAN",
+      "substrate": "synthetic",
+      "provider": "Anthropic",
+      "model": "Claude Sonnet 4.6",
+      "role": "co-author",
+      "contribution": "production build · Article IV (dodges) · Article V (attribution) · case library · modularization · self-anchor · wax seal"
+    }
+  ]
+}
