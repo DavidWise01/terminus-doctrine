@@ -1,0 +1,9 @@
+ROOT0-DLW-CHAIN-v1
+index : 1368
+slug  : terminus-doctrine
+seal  : 0755b3a064976c19d0ff7966d10364ade4be409b049d2bb0176bbca826bafbd0
+prev  : 32d327beca530eb3fc025e7108e5acda4318c0e7943554cf04f6f41b2bd7eafc
+link  : b520e1fcc47abd520e7c5e08973e2272861cd500b5ede6c2dbaf4989ba3219ef
+head  : 41f029ee4eaa0042c67040dc5927434f8e8446341839c86b6a09d79c5fbf30da
+
+— the tether: link = sha256(index|slug|seal|prev). the chain head commits to the whole corpus.
